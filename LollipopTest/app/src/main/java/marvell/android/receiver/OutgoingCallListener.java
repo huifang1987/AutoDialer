@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.telephony.TelephonyManager;
+import android.util.Log;
 
 /**
  * @author: Fanghui
@@ -18,16 +19,16 @@ public class OutgoingCallListener extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
 //        switch (intent.getIntExtra(TelephonyManager.EXTRA_FOREGROUND_CALL_STATE, -2)){
 //            case PreciseCallState.PRECISE_CALL_STATE_IDLE:
-//                Log.d(This.LOG_TAG, "IDLE");
+//                Log.d("fanghui", "IDLE");
 //                break;
 //            case PreciseCallState.PRECISE_CALL_STATE_DIALING:
-//                Log.d(This.LOG_TAG, "DIALING");
+//                Log.d("fanghui", "DIALING");
 //                break;
 //            case PreciseCallState.PRECISE_CALL_STATE_ALERTING:
-//                Log.d(This.LOG_TAG, "ALERTING");
+//                Log.d("fanghui", "ALERTING");
 //                break;
 //            case PreciseCallState.PRECISE_CALL_STATE_ACTIVE:
-//                Log.d(This.LOG_TAG, "ACTIVE");
+//                Log.d("fanghui", "ACTIVE");
 //                break;
 //        }
     }

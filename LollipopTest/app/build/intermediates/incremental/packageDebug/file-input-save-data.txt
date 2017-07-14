@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jul 14 09:24:14 CST 2017
+#Fri Jul 14 11:19:37 CST 2017
 2.base=C\:\\Users\\wx\\Desktop\\MyCode\\AutoDialer\\LollipopTest\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.file=C\:\\Users\\wx\\Desktop\\MyCode\\AutoDialer\\LollipopTest\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 5.set=ANDROID_RESOURCE

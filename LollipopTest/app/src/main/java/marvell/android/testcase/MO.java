@@ -46,7 +46,7 @@ public class MO implements ITC {
 		//String dutNumber = TConstant.getDutNumber(context, slotId);
 		//int duration = TConstant.getCallDuration(dutNumber);
 		String dutNumber = destNum;
-		int duration = 15; //仅保持15秒
+		int duration = 30; //仅保持15秒
 
 		detail = "mo " + dutNumber + ", hope call can keep " + duration + "s";
 
