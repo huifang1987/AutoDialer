@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:12:22-70
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:13:22-66
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.PROCESS_INCOMING_CALLS
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:23:22-74
+uses-permission#android.permission.READ_PRECISE_PHONE_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:24:22-80
+application
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:27:5-93:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:31:9-41
+	android:allowBackup
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:29:9-45
+	android:theme
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:30:9-65
+activity#marvell.android.lollipop.MainActivity
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:33:9-43:20
+	android:screenOrientation
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:37:13-49
+	android:label
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:35:13-45
+	android:launchMode
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:34:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:41:27-74
+activity#marvell.android.lollipop.ConfigureActivity
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:screenOrientation
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:45:13-46
+service#marvell.android.testsuit.BootService
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:49:9-57:19
+	android:exported
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:50:13-64
+intent-filter#android.intent.category.default+marvell.android.telephony.MainActivity
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:52:13-56:29
+action#marvell.android.telephony.MainActivity
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:53:17-81
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:53:25-78
+category#android.intent.category.default
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:55:17-76
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:55:27-73
+receiver#marvell.android.testsuit.MBroadcastReceiver
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:59:9-80:20
+	android:enabled
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:61:13-35
+	android:permission
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:62:13-66
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:60:13-71
+intent-filter#yulong.provider.Telephony.DUAL_SMS_RECEIVED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:63:13-65:29
+	android:priority
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:63:28-57
+action#yulong.provider.Telephony.DUAL_SMS_RECEIVED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:64:17-86
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:64:25-83
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:66:13-68:29
+	android:priority
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:66:28-57
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:67:17-82
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:67:25-79
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:72:13-74:29
+	android:priority
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:72:28-48
+action#android.intent.action.PHONE_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:73:17-76
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:73:25-73
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:75:13-79:29
+	android:priority
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:75:28-57
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:76:17-79
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:76:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:78:27-73
+receiver#marvell.android.receiver.PhoneStateReceiver
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:82:9-86:20
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:82:19-77
+receiver#marvell.android.receiver.OutgoingCallListener
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:88:9-92:20
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:88:19-79
+intent-filter#android.intent.action.PRECISE_CALL_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:89:13-91:29
+action#android.intent.action.PRECISE_CALL_STATE
+ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:90:17-83
+	android:name
+		ADDED from C:\Users\wx\Desktop\MyCode\AutoDialer\LollipopTest\app\src\main\AndroidManifest.xml:90:25-80

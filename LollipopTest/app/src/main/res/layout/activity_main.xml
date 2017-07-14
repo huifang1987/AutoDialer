@@ -1,0 +1,320 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="marvell.android.lollipop.MainActivity" >
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/configurationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/currentTestingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testingCaseName" />
+
+    <TableLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/name_tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/statisticTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:gravity="center"
+                android:text="@string/statisticRowName"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/header_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/indexHeaderTextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/indexName" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/nameHeaderTextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/caseName" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/passHeaderTextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/passName" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/failHeaderTextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/failName" >
+            </TextView>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/detailHeaderTextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/detailName" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/first_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/first_TC_Index_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/fristIndex" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/first_TC_Name_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/mo_tc_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/first_TC_Pass_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/first_TC_Fail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/first_TC_Detail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/second_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/second_TC_Index_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/secondIndex" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/second_TC_Name_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/download_tc_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/second_TC_Pass_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/second_TC_Fail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/second_TC_Detail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/third_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/third_TC_Index_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/thirdIndex" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/third_TC_Name_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/ping_tc_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/third_TC_Pass_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/third_TC_Fail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/third_TC_Detail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/fourth_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fourth_TC_Index_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/fourthIndex" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fourth_TC_Name_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/browser_tc_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fourth_TC_Pass_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fourth_TC_Fail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fourth_TC_Detail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:visibility="gone"
+            android:id="@+id/fifth_tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fifth_TC_Index_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/fifthIndex" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fifth_TC_Name_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/sms_tc_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fifth_TC_Pass_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fifth_TC_Fail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/zero" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/fifth_TC_Detail_TextView"
+                android:layout_width="wrap_content"
+                android:gravity="center_horizontal" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/startTestButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/startTestButtonName" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/configureButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/configurationButtonName" />
+    </LinearLayout>
+
+</LinearLayout>

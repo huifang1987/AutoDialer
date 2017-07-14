@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">自动呼叫器</string>
+    <string name="autoAnswer">Auto answer all call </string>
+    <string name="autoReset">Automatic reset after aseert </string>
+    <string name="browser_tc_name">webBrowser</string>
+    <string name="cancelConfigurationButtonName">Cancle</string>
+    <string name="caseName"> </string>
+    <string name="configurationButtonName">Configuration</string>
+    <string name="configurationName">Configuration: N/A</string>
+    <string name="detailName">详情</string>
+    <string name="download_tc_name">download</string>
+    <string name="eighthIndex">8</string>
+    <string name="eleventhIndex">11</string>
+    <string name="failName">失败</string>
+    <string name="fifthIndex">5</string>
+    <string name="fourthIndex">4</string>
+    <string name="fristIndex">1</string>
+    <string name="indexName">Id</string>
+    <string name="inputPhoneNumberPrompt">Please input the phone number</string>
+    <string name="mo_tc_name">本地呼叫</string>
+    <string name="ninthIndex">9</string>
+    <string name="oos_tc_name">oos</string>
+    <string name="passName">成功</string>
+    <string name="ping_tc_name">ping</string>
+    <string name="saveConfigurationButtonName">Save</string>
+    <string name="secondIndex">2</string>
+    <string name="seventhIndex">7</string>
+    <string name="sim1Name">SIM1 Number</string>
+    <string name="sim2Name">SIM2 Number</string>
+    <string name="sixthIndex">6</string>
+    <string name="sms_tc_name">sms</string>
+    <string name="startTestButtonName">开始呼叫</string>
+    <string name="statisticRowName">统计结果</string>
+    <string name="stopTestButtonName">停止呼叫</string>
+    <string name="tenthIndex">10</string>
+    <string name="testingCaseName">Now you can initial the test by start button </string>
+    <string name="thirdIndex">3</string>
+    <string name="twelthIndex">12</string>
+    <string name="upload_tc_name">upload</string>
+    <string name="zero">0</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
