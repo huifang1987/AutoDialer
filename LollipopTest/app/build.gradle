@@ -1,26 +1,28 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "25.0.3"
+  compileSdkVersion 21
+  buildToolsVersion "25.0.3"
 
-    defaultConfig {
-        applicationId "marvell.android.lollipop"
-        minSdkVersion 21
-        targetSdkVersion 22
-    }
+  defaultConfig {
+    applicationId "marvell.android.lollipop"
+    minSdkVersion 21
+    targetSdkVersion 22
+  }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-        }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
     }
+  }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:21.0.3'
-    compile files('libs/commons-net-3.3.jar')
-    compile files('libs/dom4j-1.6.1.jar')
-    compile files('libs/ftp4j-1.7.2.jar')
+  compile 'com.android.support:support-v4:21.0.3'
+  compile files('libs/commons-net-3.3.jar')
+  compile files('libs/dom4j-1.6.1.jar')
+  compile files('libs/ftp4j-1.7.2.jar')
+  compile 'com.android.support:appcompat-v7:21.0.3'
+  compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }

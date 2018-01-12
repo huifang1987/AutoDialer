@@ -12,14 +12,16 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:layout_marginTop="50dp"
         android:id="@+id/currentTestingTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="@string/testingCaseName" />
 
     <TableLayout
-        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/tableLayout"
         android:layout_width="fill_parent"
         android:layout_height="0dip"
@@ -31,6 +33,7 @@
             android:id="@+id/name_tableRow1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/table_frame"
             android:gravity="center_horizontal" >
 
             <TextView
@@ -47,6 +50,7 @@
 
         <TableRow
             android:id="@+id/header_tableRow"
+            android:background="@drawable/table_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -90,6 +94,7 @@
 
         <TableRow
             android:id="@+id/first_tableRow"
+            android:background="@drawable/table_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -133,6 +138,7 @@
         <TableRow
             android:visibility="gone"
             android:id="@+id/second_tableRow"
+            android:background="@drawable/table_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -174,6 +180,7 @@
         <TableRow
             android:visibility="gone"
             android:id="@+id/third_tableRow"
+            android:background="@drawable/table_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 

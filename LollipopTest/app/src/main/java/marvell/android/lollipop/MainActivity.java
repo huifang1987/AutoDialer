@@ -253,7 +253,12 @@ public class MainActivity extends Activity implements OnClickListener {
 			ShareProferencesUtil.setFinishCount(0);
 			Log.d("fanghui", "clear count success!");
 			return true;
+		} else if (id == R.id.action_about){
+			Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+			startActivity(intent);
+			return true;
 		}
+
 		return super.onOptionsItemSelected(item);
 	}
 
