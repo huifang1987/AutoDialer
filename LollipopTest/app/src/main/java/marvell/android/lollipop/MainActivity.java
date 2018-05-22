@@ -602,11 +602,11 @@ public class MainActivity extends Activity implements OnClickListener {
 //						ShareProferencesUtil.setFinishCount(count);
 //					}
 						//不管成功与否，都呼叫第二次
-						TimeUtil.sleep(5, TimeUtil.s);
-						resultMap = mo(slotId, line);
-						int result_2 = Integer.valueOf(resultMap.get("result"));
-						updateTestResult(slotId, caseId, result_2, resultMap);
-						sleepRandSeconds(slotId, caseId, result_2);
+						//TimeUtil.sleep(5, TimeUtil.s);
+						//resultMap = mo(slotId, line);
+						//int result_2 = Integer.valueOf(resultMap.get("result"));
+						updateTestResult(slotId, caseId, result, resultMap);
+						sleepRandSeconds(slotId, caseId, result);
 						ShareProferencesUtil.setFinishCount(count);
 
 					line = reader.readLine();

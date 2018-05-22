@@ -48,6 +48,7 @@
     <string name="release_date">发布日期: </string>
     <string name="history">历史版本</string>
     <string name="feature">
+    2018/05/22\n每个号码仅呼叫一次\n\n
     2018/01/12\n增加关于页\n\n
     2017/07/14\n不能判断对方是否接听，所以连续拨两次，每次呼叫时长30s。\n
     </string>
